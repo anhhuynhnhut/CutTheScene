@@ -46,7 +46,7 @@
         <section class="settings">
             <h2>Settings</h2>
             <div>
-                <label>Cube Rotation: <input id="cubeRotation" type="number" min="0" max="359" value="180">°</label>
+                <label>Cube Rotation: <input id="cubeRotation" type="number" min="0" max="359" value="0">°</label>
             </div>
             <fieldset title="The resampling algorithm to use when generating the cubemap.">
                 <legend>Interpolation type</legend>
@@ -64,6 +64,7 @@
         <section>
             <h2>Output</h2>
             <p>Click each cube face to save it to your computer.</p>
+            <p style="color:red"> For the Up image, please change the Cube Rotation to 90 degree for correct order.</pstyle="color:red">
             <div id="cubemap">
                 <b id="generating" style="visibility:hidden">Generating...</b>
                 <output id="faces"></output>

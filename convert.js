@@ -148,7 +148,7 @@ const orientations = {
     out.z = 1;
   },
   down: (out, x, y) => {
-    out.x = -y;
+    out.x = y;
     out.y = -x;
     out.z = -1;
   }
